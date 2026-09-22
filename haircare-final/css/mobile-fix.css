@@ -1,0 +1,96 @@
+/* FIX RESPONSIVE - Mobile adjustments */
+
+/* Réduire la hauteur du hero section sur mobile */
+@media (max-width: 768px) {
+  .slider-text {
+    height: 500px !important;
+    min-height: 500px !important;
+  }
+  
+  .hero-wrap {
+    height: 500px !important;
+    min-height: 500px !important;
+  }
+  
+  .hero-wrap .overlay {
+    height: 500px !important;
+  }
+  
+  .hero-wrap.hero-wrap-2 {
+    height: 500px !important;
+  }
+  
+  .hero-wrap.hero-wrap-2 .overlay {
+    height: 500px !important;
+  }
+  
+  .hero-wrap.hero-wrap-2 .slider-text {
+    height: 500px !important;
+  }
+}
+
+/* Très petit écran */
+@media (max-width: 576px) {
+  .slider-text {
+    height: 400px !important;
+    min-height: 400px !important;
+  }
+  
+  .hero-wrap {
+    height: 400px !important;
+    min-height: 400px !important;
+  }
+  
+  .hero-wrap .overlay {
+    height: 400px !important;
+  }
+  
+  .hero-wrap.hero-wrap-2 {
+    height: 400px !important;
+  }
+  
+  .hero-wrap.hero-wrap-2 .overlay {
+    height: 400px !important;
+  }
+  
+  .hero-wrap.hero-wrap-2 .slider-text {
+    height: 400px !important;
+  }
+}
+
+/* Afficher les images de background correctement sur mobile */
+@media (max-width: 768px) {
+  .services-wrap.img {
+    min-height: 300px;
+    display: flex !important;
+    align-items: center;
+  }
+  
+  .services-wrap.img:before,
+  .services-wrap.img:after {
+    opacity: 0.3 !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .services-wrap.img {
+    min-height: 250px;
+  }
+  
+  .services-wrap.img .text h3 {
+    font-size: 1.5rem !important;
+  }
+}
+
+/* Améliorer la lisibilité des textes sur mobile */
+@media (max-width: 768px) {
+  .text-center h1,
+  .text-center h2,
+  .text-center h3 {
+    font-size: 1.5rem !important;
+  }
+  
+  .subheading {
+    font-size: 0.9rem;
+  }
+}

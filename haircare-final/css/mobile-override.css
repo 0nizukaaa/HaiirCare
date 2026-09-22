@@ -1,0 +1,80 @@
+/* MOBILE FIX - Force images sur téléphone */
+
+/* Forcer les images POUR HOMMES et POUR FEMMES sur mobile */
+@media (max-width: 768px) {
+  .services-wrap.img {
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    height: 400px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  
+  .services-wrap.img:before {
+    display: block !important;
+    opacity: 0.6 !important;
+  }
+  
+  .services-wrap.img .text {
+    position: relative;
+    z-index: 10;
+  }
+}
+
+/* Forcer les images de hero aussi */
+@media (max-width: 768px) {
+  .hero-wrap {
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+  }
+  
+  .hero-wrap .overlay {
+    background: rgba(0, 0, 0, 0.5) !important;
+    opacity: 1 !important;
+  }
+}
+
+/* Section texte centrale - fond NOIR pas beige */
+@media (max-width: 768px) {
+  .text-about {
+    background: #000000 !important;
+    color: #fff !important;
+  }
+  
+  .text-about h2 {
+    color: #fff !important;
+  }
+  
+  .text-about .logo a {
+    color: #b48b5f !important;
+  }
+}
+
+/* Services section - fond NOIR */
+@media (max-width: 768px) {
+  .services-section {
+    background: #000000 !important;
+  }
+}
+
+/* Gallerie - forcer images */
+@media (max-width: 768px) {
+  .img {
+    background-size: cover !important;
+    background-position: center !important;
+  }
+}
+
+/* Tout le site - fond NOIR pas beige sur mobile */
+@media (max-width: 768px) {
+  body {
+    background: #000000 !important;
+  }
+  
+  section {
+    background: #000000 !important;
+  }
+}
